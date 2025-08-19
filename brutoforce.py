@@ -5,7 +5,7 @@ import string
 import threading
 import time
 
-update_interval = 1110455555555
+update_interval = 1110455
 characters = string.ascii_lowercase + string.digits
 max_length = 7
 
@@ -87,4 +87,5 @@ status_label = tk.Label(window, textvariable=status_var, wraplength=480,
 status_label.pack(pady=10)
 
 # Start GUI loop
+
 window.mainloop()
